@@ -1,6 +1,39 @@
+# Compiled output
 *.class
+out/
+build/
+bin/
+target/
 
 # Package Files #
 *.jar
 *.war
 *.ear
+
+# Build tools this repository deliberately does not use
+.gradle/
+.mvn/
+gradlew
+gradlew.bat
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# macOS
+.DS_Store
+
+# Local-only tooling: the banner generator lives here but is deliberately not
+# part of the repository. The banners it produces (docs/) are committed.
+/tools
+
+# Notes for Claude Code sessions, kept local.
+CLAUDE.md
+
+# JVM crash logs
+hs_err_pid*.log
+replay_pid*.log
